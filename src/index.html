@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test for RichBee</title>
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+</head>
+<body>
+<div class="page">
+  <header class="header">
+    <a href="#" class="logo header__logo link">Relationz</a>
+    <img class="header__ring" src="<%=require('./images/header__ring.svg')%>" alt="orange ring"></img>
+    <nav class="header__navigation">
+      <a href="#" class="header__link link"><p class="header__link_text">Услуги</p></a>
+      <a href="#" class="header__link link"><p class="header__link_text">Возможности</p></a>
+      <a href="#" class="header__link link"><p class="header__link_text">Цены</p></a>
+      <a href="#" class="header__link link"><p class="header__link_text">Авторизация</p></a>
+      <a href="#" class="button link header__button"><p class="header__link_button">Регистрация</p></a> 
+    </nav>
+  </header>
+  <main class="content">
+    <section class="description">
+      <div class="description__main">
+        <h1 class="main__title"><img class="main__image" src="<%=require('./images/square_top.svg')%>" alt="dot square">Отношения на новом уровне</h1>
+        <p class="main__text">The multichannel sales engagement platform which automates personal email outreach, calls, and tasks, while Sales can focus on what really matters - closing deals.</p>
+        <form action="" class="description__form">
+          <input type="email" class="main__input" placeholder="Email id">
+          <button class="main__button button" type="button">Try it for free</button>
+        </form>
+        <ul class="main__checklist">
+          <li class="main__check">Synced contacts</li>
+          <li class="main__check">Regular reminders</li>
+          <li class="main__check">The multichannel</li>
+        </ul>
+        <img class="main__ring" src="<%=require('./images/description__ring.svg')%>" alt="orange ring">
+      </div>
+      <div class="description__image"><img src="<%=require('./images/Phone.png')%>" alt="Phone"></div>
+
+    </section>
+    <section class="reviews">
+      <h2 class="reviews__title">Что о нас говорят пользователи</h2>
+      <div class="reviews__avatar">
+        <img src="<%=require('./images/centr_avatar.png')%>" alt="avatar">
+      </div>
+      <div class="reviews__card">
+        <h3 class="card__title">Michelle Johnson, Australia</h3>
+        <img src="<%=require('./images/quotes.svg')%>" alt="quotes">
+        <p class="card__text">The multichannel sales engagement platform which automates personal email outreach, calls, and tasks, while Sales can focus on what really matters - closing while Sales can focus on what really matters - closing</p>
+        <img src="<%=require('./images/signature.png')%>" alt="signature" class="card__signature">
+        <img src="<%=require('./images/square_blue.svg')%>" alt="dot square" class="reviews__square">
+        </div>
+        <img src="<%=require('./images/slider.svg')%>" alt="slider" class="reviews__slider"> 
+    </section>
+    <section class="timeTrial">
+      <div class="timeTrial__container">
+        <div class="timeTrial__text-container">
+          <h1 class="timeTrial__title">Form better relationships with everyone</h1>
+        <p class="timeTrial__subtitle">Start your free 14 days trial.</p>
+        </div>
+        <button class="timeTrial__button button" type="button">Try it for free</button>
+        <img src="<%=require('./images/blue_ring.svg')%>" alt="blue ring" class="timeTrial__ring">
+      </div>  
+    </section>
+  </main>  
+  <footer class="footer">
+    <div class="footer__columns">
+      <div class="footer__column footer__column_relationz">
+        <h3 class="footer__title">Relationz</h3>
+        <a href="" class="footer__link link">Product Tour</a>
+        <a href="" class="footer__link link">Pricing</a>
+        <a href="" class="footer__link link">Founding Members</a>
+        <a href="" class="footer__link link">Case Studies</a>
+      </div>
+      <div class="footer__column footer__column_company">
+        <h3 class="footer__title">Company</h3>
+        <a href="" class="footer__link link">Blog</a>
+        <a href="" class="footer__link link">Career</a>
+        <a href="" class="footer__link link">Privacy</a>
+        <a href="" class="footer__link link">About</a>
+      </div>
+      <div class="footer__column footer__column_support">
+        <h3 class="footer__title">Support</h3>
+        <a href="" class="footer__link link">Documentation</a>
+        <a href="" class="footer__link link">Security</a>
+        <a href="" class="footer__link link">Mobility Guide</a>
+        <a href="" class="footer__link link">FAQs</a>
+      </div>
+      <div class="footer__column footer__column_legal">
+        <h3 class="footer__title">Legal</h3>
+        <a href="" class="footer__link link">Terms of Service</a>
+        <a href="" class="footer__link link">Privacy Policy</a>
+        <a href="" class="footer__link link">Cookie Information</a>
+        <a href="" class="footer__link link">GDPR Commitment</a>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <a href="#" class="logo footer__logo link">Relationz</a>
+      <p class="copyright__copyright">Copyright © 2010 - 2019 Relationz Ltd. All rights reserved.</p>
+      <img src="<%=require('./images/footer__ring.svg')%>" alt="yellow ring" class="footer__ring">
+    </div>
+  </footer>
+</div>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>

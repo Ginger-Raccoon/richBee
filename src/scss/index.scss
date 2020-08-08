@@ -1,0 +1,79 @@
+@import './blocks/link/link.scss';
+@import './blocks/button/button.scss';
+@import './blocks/header/header.scss';
+@import './blocks/description/discription.scss';
+@import './blocks/reviews/reviews.scss';
+@import './blocks/timeTrial/timeTrial.scss';
+@import './blocks/footer/footer.scss';
+
+@font-face {
+  src: url(../fonts/ArialBlack.woff) format('woff');
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+  font-family: 'Arial';
+}
+
+@font-face {
+  src: url(../fonts/ArialBold.woff) format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-family: 'Arial';
+}
+
+@font-face {
+  src: url(../fonts/ArialBoldItalic.woff) format('woff');
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+  font-family: 'Arial';
+}
+
+@font-face {
+  src: url(../fonts/ArialRegular.woff) format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-family: 'Arial';
+}
+
+@font-face {
+  src: url(../fonts/Gilroy-Black.woff2) format('woff'2);
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+  font-family: 'Gilroy';
+}
+
+@font-face {
+  src: url(../fonts/Gilroy-Bold.woff2) format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-family: 'Gilroy';
+}
+
+@font-face {
+  src: url(../fonts/Gilroy-BoldItalic.woff2) format('woff2');
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+  font-family: 'Gilroy';
+}
+
+@font-face {
+  src: url(../fonts/Gilroy-Regular.woff2) format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-family: 'Gilroy';
+}
+
+.page {
+  max-width: 834px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: 'Gilroy', 'Arial', sans-serif;
+}

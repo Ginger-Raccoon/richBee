@@ -1,0 +1,47 @@
+@import '../logo/logo.scss';
+
+.header {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.header__ring {
+  padding-left: 98px;
+  margin-top: -35px;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 11px;
+}
+
+.header__link {
+  padding-left: 25px;
+}
+
+.header__link_text {
+  color: #73738D;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+
+.header__button {
+  margin-left: 23px;
+  border-color: #1943EF;
+  color: #1943EF;
+}
